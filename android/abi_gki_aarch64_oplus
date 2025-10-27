@@ -324,6 +324,7 @@
   __tracepoint_android_vh_tick_nohz_idle_stop_tick
   __tracepoint_android_vh_shrink_node_memcgs
   __tracepoint_android_vh_sync_txn_recvd
+  __tracepoint_android_vh_tune_swappiness
   __tracepoint_android_vh_set_tsk_need_resched_lazy
   __tracepoint_android_vh_task_blocks_on_rtmutex
   __tracepoint_android_vh_task_ux_op
@@ -389,5 +390,3 @@
   xt_register_match
   xt_unregister_match
   zero_pfn
-  __traceiter_android_vh_init_adjust_zone_wmark
-  __tracepoint_android_vh_init_adjust_zone_wmark
